@@ -257,7 +257,7 @@ img[src$=".gif"], img[src$=".png"] {
 .info .race ul, .info .race_info ul, .info .info ul, .info .race_misc ul{
 	line-height: 45px;
 	padding:0px 0 0 10px;
-	color:#fff;
+  color:rgba(255,255,255,.8);
 	font-size:30px;
 	font-weight:lighter;
 	text-align:left;
@@ -267,7 +267,7 @@ img[src$=".gif"], img[src$=".png"] {
 .info .race_map ul, .info .race_misc ul, .info .race_misc_top_left ul, .info .race_misc_top_right ul, .info .race_misc_bottom_left ul, .info .race_misc_bottom_right ul{
 	margin:35px 0 0 0;
 	padding:0px;
-	color:#fff;
+  color:rgba(255,255,255,.8);
 	font-size:30px;
 	text-align: center;
 	list-style:none;
