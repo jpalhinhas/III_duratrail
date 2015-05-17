@@ -8,11 +8,7 @@ body {
   text-rendering: optimizelegibility;
   border-top: 5px solid #ff9c0f;
 }
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   font-size: 46px;
   font-weight: bolder;
@@ -22,6 +18,10 @@ h6 {
   text-align: center;
   text-transform: uppercase;
   text-shadow: #454545 0px 2px 1px;
+}
+ul, li{
+	margin:0px;
+	padding:0px;
 }
 /*
 //H1,H2,H3,H4,H5,H6 FONT SIZE GRADUAL REDUCTION
@@ -230,8 +230,9 @@ img[src$=".gif"], img[src$=".png"] {
   margin:0px -15px 5px 0px;
   padding: 0 20px 0 30px;
   border-right: 10px solid #ff9c0f;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
+  font-family: 'Advent Pro', sans-serif;
+  letter-spacing:1px;
+  font-weight:bold;
   font-style: italic;
 }
 .tile .details_footer{
@@ -269,7 +270,8 @@ img[src$=".gif"], img[src$=".png"] {
 .info .race_map ul, .info .race_misc ul, .info .race_misc_top_left ul, .info .race_misc_top_right ul, .info .race_misc_bottom_left ul, .info .race_misc_bottom_right ul{
 	margin:35px 0 0 0;
 	padding:0px;
-  color:rgba(255,255,255,.8);
+	color:rgba(255,255,255,.8);
+	text-transform: uppercase;
 	font-size:30px;
 	text-align: center;
 	list-style:none;
@@ -512,16 +514,16 @@ img[src$=".gif"], img[src$=".png"] {
     }
 	.tile .details_title {
 		line-height: 40px;
-		margin: 0 -20px 15px 0;
+		margin: 10px -20px 20px 0;
 		padding: 0 10px;
 		background: rgba(0,0,0,.3);
 		color: #df8207;
-		font-size: 28px;
+		font-size: 22px;
 	}
     .tile .details_footer{
-        margin: 20px -20px 0 30px;
+        margin: 10px -20px 0 30px;
 		padding: 0 10px 0 10px;
-        font-size: 18px;
+        font-size: 14px;
     }
     /*INFO*/
     .info .race {
@@ -542,11 +544,26 @@ img[src$=".gif"], img[src$=".png"] {
 	    text-align:center;
     }
 	.info .race_map, .info .race_misc, .info .race_misc_top_left, .info .race_misc_top_right, .info .race_misc_bottom_left, .info .race_misc_bottom_right{
-	    height:80px;
+	    height:60px;
     }
 	.info .race_map ul, .info .race_misc ul, .info .race_misc_top_left ul, .info .race_misc_top_right ul, .info .race_misc_bottom_left ul, .info .race_misc_bottom_right ul{
 	    margin:20px;
     }
+    
+    .info .race ul, .info .race_info ul, .info .info ul, .info .race_misc ul{
+	margin: 0px;
+	padding: 0px;
+	font-size:18px;
+	font-weight: bold;
+}
+	.info .race_map ul, .info .race_misc ul, .info .race_misc_top_left ul, .info .race_misc_top_right ul, .info .race_misc_bottom_left ul, .info .race_misc_bottom_right ul{
+	height:60px;
+	line-height:60px;
+	margin: 0px;
+	padding: 0px;
+	font-size:18px;
+	font-weight: bold;
+	}
     /*MAP*/
     .contact_info{
         height:auto;
