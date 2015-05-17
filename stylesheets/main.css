@@ -235,6 +235,15 @@ img[src$=".gif"], img[src$=".png"] {
   font-weight:bold;
   font-style: italic;
 }
+.tile .long{
+  border-color:#C57B1A;
+}
+.tile .medium{
+  border-color:#FF9C0F;
+}
+.tile .short{
+  border-color:#F4C078;
+}
 .tile .details_footer{
   margin:10px -15px 0 0;
   padding:0 30px;
