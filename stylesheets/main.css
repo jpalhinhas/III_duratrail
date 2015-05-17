@@ -485,13 +485,25 @@ img[src$=".gif"], img[src$=".png"] {
         margin:0 0 10px 0;
         float: right;
     }
+    #navbar.navbar-collapse .navbar-nav li a:hover, #navbar.navbar-collapse .navbar-nav li a:focus, #navbar.navbar-collapse .navbar-nav li a:active{
+        background:#ff9c0f;
+        color:#fff;
+    }
     /*#navbar.navbar-collapse .navbar-nav li:hover>span, #navbar.navbar-collapse .navbar-nav li:focus>span, #navbar.navbar-collapse .navbar-nav li:active>span{
         background:#d1d1d1;
     }*/
     #navbar.navbar-collapse .navbar-nav li span{
         margin:0px;
         top: -5px;
+        border:none;
     }
+    .ranking_tab .drop_years {
+		padding: 45px 0 0 0;
+  }
+    .ranking_tab:hover>#drop_years, .ranking_tab .drop_years:hover, .ranking_tab .drop_years:focus, .ranking_tab .drop_years:active {
+		height: 140px;
+		margin: -40px 0 0 -2px;
+}
     /*BANNER*/
     .tile{
         height: 300px;
