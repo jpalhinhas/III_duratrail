@@ -316,6 +316,26 @@ img[src$=".gif"], img[src$=".png"] {
 	height:120px;
 	background:rgba(0,0,0,.4);
 }
+/*FOOTER*/
+.footer{
+	background:#666;
+}
+.grey{
+	width:100px;
+	height:87px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity:.7;
+}
+.grey:hover{
+	width:100px;
+	height:87px;
+	display: block;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../caetano.png) no-repeat;
+	opacity:1;
+}
 /*CONTACT MAP*/
 .contact_info{
   height: 420px;
