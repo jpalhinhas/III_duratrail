@@ -25,32 +25,25 @@
 		<link rel="icon" type="image/png" href="images/logo_196.png">
 		<link rel="apple-touch-icon" href="images/logo_152.png">
         <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css?v=1" charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="stylesheets/main.css?v=1" charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Advent+Pro:400,100">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css?v=1" charset="utf-8"><!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Advent+Pro:400,100"><!-- Google Fonts -->
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="add-ons/fancybox/source/jquery.fancybox.css" media="screen" /><!-- Fancybox -->
+		<link rel="stylesheet" type="text/css" href="add-ons/fancybox/source/helpers/jquery.fancybox-buttons.css" media="screen" /><!-- Fancybox -->
+		<link rel="stylesheet" type="text/css" href="add-ons/fancybox/source/helpers/jquery.fancybox-thumbs.css" media="screen" /><!-- Fancybox -->
+		<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"><!-- Tooltip -->
+        <link rel="stylesheet" type="text/css" href="stylesheets/tooltip.css?v=1" charset="utf-8"><!-- Tooltip -->
+        <link rel="stylesheet" type="text/css" href="stylesheets/main.css?v=1" charset="utf-8"><!-- Website -->
         <!-- JS -->
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="js/smooth-scroll.js"></script>
-        <script>
-            $(function() {
-                $('a[href*=#]:not([href=#])').click(function() {
-                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                        if (target.length) {
-                            $('html,body').animate({
-                                scrollTop: target.offset().top
-                            }, 500);
-                            return false;
-                        }
-                    }
-                });
-            });
-        </script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script><!-- JQuery -->
+		<script type="text/javascript" src="add-ons/fancybox/source/jquery.fancybox.pack.js"></script><!-- Fancybox -->
+		<script type="text/javascript" src="add-ons/fancybox/source/helpers/jquery.fancybox-buttons.js"></script><!-- Fancybox -->
+		<script type="text/javascript" src="add-ons/fancybox/source/helpers/jquery.fancybox-media.js"></script><!-- Fancybox -->
+		<script type="text/javascript" src="add-ons/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script><!-- Fancybox -->
+        <script type="text/javascript" src="js/bootstrap.js"></script><!-- Bootstrap -->
+        <script type="text/javascript" src="js/main.js"></script><!-- Website -->
+		<script type="text/javascript" src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script><!-- JQuery ui -->
+
     </head>
 
     <body>
@@ -114,10 +107,10 @@
                                 <p class="base details_title">4 OUTUBRO 2015</p>
 					            <div class="clearfix"></div>
                                 <p class="base details long">25km - 1250D+</p>
-                                <p class="base details medium">14km - 500D+</p>
+                                <!--<p class="base details medium">14km - 500D+</p>-->
                                 <p class="base details short">CAMINHADA</p>
                                 <div class="clearfix"></div>
-                                <p class="base details_footer">*inscrições dia 01 JUNHO</p> 
+                                <p class="base details_footer">*inscrições dia 10 JUNHO</p> 
                             </div>
                         </div>
                     </div>
@@ -143,40 +136,40 @@
 	                        <ul>
 		                        <li>Programa</li>
 		                        <li>Inscrições</li>
-		                        <li>Regulamento</li>
-		                        <li>Contacto</li>
+		                        <li><a href="https://onedrive.live.com/view.aspx?Bsrc=Share&Bpub=SDX.SkyDrive&resid=CBB602326659999!340&cid=0cbb602326659999&app=Word&authkey=!ApTQK9Ud-SgHWlI" target="_blank" title="Regulamento">Regulamento</a></li>
+		                        <li><a href="mailto:duratrail@gmail.com" target="_blank" title="Enviar Email">Contacto</a></li>
 		                    </ul>
                         </div>
                         <div class="col-md-pu-6 col-sm-6 col-xs-12 race_map">
 	                        <ul>
-		                        <li><i class="fa fa-location-arrow fa-lg"></i>&nbsp;&nbsp;Localização</li>
+		                        <li><a href="https://www.google.pt/maps/place/Parque+Urbano+de+Albarquel/@38.51454,-8.9120867,15z/data=!4m5!1m2!2m1!1spua+setubal!3m1!1s0x0000000000000000:0x09db4ea741d98ab3" target="_blank" title="Onde se realiza a prova!"><i class="fa fa-location-arrow fa-lg"></i>&nbsp;&nbsp;Localização</a></li>
 		                    </ul>
                         </div>
                     </div>    
                     <div class="col-md-4 col-sm-12 col-xs-12 info">
                         <div class="col-md-12 col-sm-12 col-xs-12 pull-left race_misc">
 	                        <ul>
-		                        <li><i class="fa fa-bed fa-lg"></i>&nbsp;&nbsp;Alojamentos</li>
+		                        <li><a href="#" title="Alojamentos"><i class="fa fa-bed fa-lg"></i>&nbsp;&nbsp;Alojamentos</a></li>
 		                    </ul>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 pull-left race_misc_top_left">
 	                        <ul>
-		                        <li><i class="fa fa-sun-o fa-lg"></i><i class="fa fa-cloud fa-lg"></i></li>
+		                        <li><a href="http://www.accuweather.com/pt/pt/setubal/275680/may-weather/275680" target="_blank" title="Temperatura Local"><i class="fa fa-sun-o fa-lg"></i><i class="fa fa-cloud fa-lg"></i></a></li>
 		                    </ul>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 pull-left race_misc_top_right">
 	                        <ul>
-		                        <li><i class="fa fa-map-marker fa-lg"></i></li>
+		                        <li><a href="#" title="Como Chegar"><i class="fa fa-map-marker fa-lg"></i></a></li>
 		                    </ul>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 pull-left race_misc_bottom_left">
-	                        <ul>
-		                        <li><i class="fa fa-camera fa-lg"></i></li>
+	                        <ul clas="list">
+		                        <li><a class="fancybox-media" href="https://www.youtube.com/watch?v=DIwHT11wX5M" target="_blank" title="II Duratrail - Video"><i class="fa fa-film fa-lg"></i></a></li>
 		                    </ul>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6 pull-left race_misc_bottom_right">
 	                        <ul>
-		                        <li><i class="fa fa-flag-checkered fa-lg"></i></i></li>
+		                        <li><a href="#" title="Resultados"><i class="fa fa-flag-checkered fa-lg"></i></li></a></li>
 		                    </ul>
                         </div>
                     </div>
@@ -185,56 +178,81 @@
             <div class="container-fluid footer">
                 <div class="row">
                     <div class="container">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="row row-centered">
                             <h2>SPONSORS</h2>
-	                        <p class="partner_title">Institucionais</p>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+	                        <p class="partner_title">Patrocínios</p>
+	                        <div class="col-md-6 col-sm-12 col-xs-12 col-centered">
+                            	<img class="grey" src="images/logo_lurbel.png" />
+                            </div>
+                	    </div>
+                        <div class="row">
+                    	    <div class="col-md-2 col-sm-0 col-xs-0">
+                    	    </div>
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
                                 <img class="grey" src="images/logo_caetano.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_gold_nutricion.png" />
+                    	    </div>
+                    	    <div class="col-md-4 col-sm-12 col-xs-12">
                                 <img class="grey" src="images/logo_circuit_power.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                    	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                    	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                    	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                    	    </div>
                         </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-	                        <p class="partner_title">Hotéis</p>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                                <img class="grey" src="images/logo_troia_resort.png" />
+                        <div class="row">
+	                        <p class="partner_title">Institucionais</p>
+                    	    <div class="col-md-1 col-sm-0 col-xs-0">
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_setubal.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_pna.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                    	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                    	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                    	    </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-	                        <p class="partner_title">Parceiro</p>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
-                                <img class="grey" src="images/logo_vertigem_azul.png" />
-                    	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-2 col-sm-8 col-xs-8">
                                 <img class="grey" src="images/logo_cruz_vermelha.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-3 col-sm-8 col-xs-8">
+                                <img class="grey" src="images/logo_turismo.png" />
+                    	    </div>
+                        </div>
+                        <div class="row">
+	                        <p class="partner_title">Hotéis</p>
+                    	    <div class="col-md-4 col-sm-0 col-xs-0">
+                    	    </div>
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_troia_resort.png" />
+                    	    </div>
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_mar_e_sol.png" />
+                    	    </div>
+                        </div>
+                        <div class="row">
+	                        <p class="partner_title">Parceiro</p>
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_vertigem_azul.png" />
+                    	    </div>
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
                                 <img class="grey" src="images/logo_casacaso.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_atrp.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_ludgi.png" />
                     	    </div>
-                    	    <div class="col-md-2 col-sm-2 col-xs-2">
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_cityprint.png" />
+                    	    </div>
+                    	    <div class="col-md-2 col-sm-6 col-xs-6">
+                                <img class="grey" src="images/logo_100_entrada.png" />
+                    	    </div>
+                    	    <div class="col-md-2 col-sm-0 col-xs-0">
+                    	    </div>
+                    	    <div class="col-md-4 col-sm-12 col-xs-12">
+                                <img class="grey" src="images/logo_goper.png" />
+                    	    </div>
+                    	    <div class="col-md-4 col-sm-12 col-xs-12">
+                                <img class="grey" src="images/logo_npd.png" />
                     	    </div>
                         </div>
                     </div>
